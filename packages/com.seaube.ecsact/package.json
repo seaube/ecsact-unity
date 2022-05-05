@@ -1,8 +1,8 @@
 {
   "name": "com.seaube.ecsact",
   "version": "0.2.1",
-  "description": "ECSACT Integration",
-  "displayName": "ECSACT Integration",
+  "description": "Ecsact Integration",
+  "displayName": "Ecsact Integration",
   "unity": "2021.2",
   "author": {
     "name" : "Seaube"

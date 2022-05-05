@@ -39,7 +39,7 @@ static class EcsactSettingsUIElementsRegister {
 	[SettingsProvider]
 	public static SettingsProvider CreateEcsactSettingsProvider() {
 		return new SettingsProvider(EcsactSettings.path, EcsactSettings.scope) {
-			label = "ECSACT",
+			label = "Ecsact",
 			activateHandler = (searchContext, rootElement) => {
 				var settings = EcsactSettings.GetSerializedSettings();
 				var template = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(
